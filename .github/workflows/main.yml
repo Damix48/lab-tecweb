@@ -30,3 +30,7 @@ jobs:
         with:
           name: log
           path: log.log
+      - uses: chabad360/htmlproofer@v1.1
+        with:
+        # The directory to scan
+          directory: ./
