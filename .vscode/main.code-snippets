@@ -16,12 +16,12 @@
 	// 	"description": "Log output to console"
 	// }
 	"span inglese": {
-		"prefix": "engspan",
-		"body": "<span xml:lang=\"en\">$1</span>",
+		"prefix": "eng",
+		"body": "<span xml:lang=\"en\">${TM_SELECTED_TEXT:$1}</span>",
 		"scope": "html"
 	},
 	"xml inglese": {
-		"prefix": "eng",
+		"prefix": "engxml",
 		"body": "xml:lang=\"en\"",
 		"scope": "html"
 	}
