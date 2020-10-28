@@ -73,16 +73,57 @@ body {
   padding: 0.5em;
 }
 
-#contenutoPagina {
-  width: 50%;
+.contenutoGenerale {
   margin-left: 20%;
+
+  width: 70%;
   border-left: 1px solid #dddddd;
-  border-right: 1px solid #dddddd;
   padding: 1.5em 1em 3em 4em;
+}
+
+#contenutoHome {
+  width: 50%;
+
+  border-right: 1px solid #dddddd;
 }
 
 #imgIndex {
   width: 70%;
+}
+
+#characterStory {
+  width: 90%;
+  margin: auto;
+}
+
+#characterStory dt {
+  font-weight: bold;
+  background-color: #bd091b;
+  color: #ffffff;
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+#characterStory dd {
+  border: 1px solid #000000;
+  border-top: none;
+  padding: 0.5em;
+  /* min-height: ; per immagini se vanno sopra il background con poco testo*/
+}
+
+#characterStory dd img {
+  float: left;
+  width: 20%;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#characterStory dd p {
+  margin-left: 25%;
+}
+
+#characterStory dd p .aiutoTornaSu {
+  text-align: right;
 }
 
 #footer {
